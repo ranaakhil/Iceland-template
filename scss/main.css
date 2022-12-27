@@ -10,6 +10,10 @@ body {
   min-height: 100vh;
   margin-inline: auto;
   max-width: 1400px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: #111215;
 }
 
@@ -20,6 +24,7 @@ img, picture, svg {
 
 html {
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 a {
